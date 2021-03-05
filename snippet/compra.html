@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Realizar pedido</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <a href="../landingPage.html"><img class="img-fluid" src="../img/logo.png" alt="company logo"></a>
+          </nav>
+      </header>
+    <div class="container">
+        <form action="">
+            <h3>Fomulario de compra</h3>
+            <div class="form-group">
+                <label for="name">Nombre: </label>
+                <input id="nombre" type="text" name="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="name">Email: </label>
+                <input id="email" type="email" name="email" id="" class="form-control">
+            </div>
+        </form>
+    </div>
+    <div id="carrito" class="container">
+        <table id="lista-compra" class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Imagen</th>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+                <th>Eliminar</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+            <tfoot>
+            <tr>
+                <th colspan="4" scope="col" class="text-right">Subtotal:</th>
+                <th scope="col">
+                    <p id="subtotal"></p>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4" scope="col" class="text-right">IGV:</th>
+                <th scope="col">
+                    <p id="igv"></p>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4" scope="col" class="text-right">Total:</th>
+                <th scope="col">
+                    <p id="total"></p>
+                </th>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="container">
+        <a id="procesar-pedido" type="button" class="btn btn-success btn-block">Procesar Compra</a>
+        <a id="procesar-pedido" type="button" class="btn btn-primary btn-block" href="index.html">Seguir Comprando</a>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/compra.js"></script>
+
+</body>
+</html>

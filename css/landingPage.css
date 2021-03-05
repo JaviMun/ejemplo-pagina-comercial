@@ -1,0 +1,87 @@
+body{
+    position: relative;
+    background-color: rgba(31, 65, 138, 0.5);
+}
+
+/*Estilos de la cabecera de la página*/
+header {
+    background-color: rgba(56, 90, 163, 0.2);
+}
+header nav a{
+    width: 15%;
+    text-align: center;
+}
+nav {
+    margin-bottom: 5%;
+}
+
+
+/*Estilos del contenido principal*/
+
+/*Pagina de inicio*/
+h1{
+    font-size: 8em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* Pagina de productos*/
+h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+.precio{
+    margin: 10px auto;
+    font-size: 4em;
+    font-style: bold;
+}
+
+/* Pagina quienes somos */
+#quienessomos{
+    text-align: center;
+    padding: 10%;
+}
+#quienessomos h3{
+    font-size: 3em;
+}
+#quienessomos p{
+    font-size: 1em;
+}
+
+/* Página servicios*/
+#servicios{
+    text-align: center;
+    
+}
+#servicios h3{
+    font-size: 3em;
+}
+#servicios p{
+    font-size: 1em;
+}
+
+/*Estilos del pie de la página*/
+#footer { 
+    margin-top: 10%;
+    border: solid 2px  rgba(56, 90, 163, 0.2);
+    padding: 5%;
+}
+#newsletter{
+    margin-left: 20px;
+}
+.form-group{
+    width: 30%;
+}
+.form-group input{
+    margin: 0 auto;
+}
+
+#footer form input{
+    margin-bottom: 10px;
+}
