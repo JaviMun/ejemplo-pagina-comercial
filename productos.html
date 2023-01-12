@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/market.css">
+    <title>Zona Digital</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="icon">
+                <a href="index.html"><img src="images/logo.png" alt="aca va el logo"></a>
+            </div>
+            <div class="links">
+                <a href="index.html#quienes-somos">Quienes Somos</a>
+                <a href="index.html#servicios">Servicios</a>
+                <a href="productos.html">Productos</a>
+                <button id="carrito" onclick="mostrarCarrito()">
+                    <img src="images/carrito.png" alt="imagen carrito de compras" width="50px">
+                </button>
+                <span id="numero-articulos" class="numero-articulos">0</span>
+            </div>
+        </nav>
+        <div id="dropdown-table" class="hidden">
+            <table id="carro">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Valor</th>
+                        <th>Remover</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <button onclick="finalizarCompra()">Finalizar Compra</button>
+            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        </div>
+    </header>
+    <main>
+        <div id="market">
+
+        </div>
+
+        <div id="claudio">
+            
+        </div>
+    </main>
+    <footer>
+        <div class="newsletter">
+            <h4>Sumate a nuestra comunidad para recibir novedades:</h4>
+            <form action="#">
+                <input type="text" aria-label="Nombre" placeholder="Nombre">
+                <input type="text" aria-label="Email" placeholder="Email">
+                <button type="submit" aria-label="Sumarse al newsletter">¡Quiero recibir las novedades!</button>
+            </form>
+        </div>
+        <div class="contacto">
+            <div class="iconos sociales">
+                <a href="#"><img src="images/Sin título-1.png" alt="Instagram"></a>
+                <a href="#"><img src="images/Sin título-2.png" alt="Facebook"></a>
+            </div>
+            <div class="otros">
+                <a href="tel:+54 2392 433464">+54 2392 433464</a>
+                <a href="mailto:info@zonadigitaltl.com.ar">info@zonadigitaltl.com.ar</a>
+                <span>GDOR. IRIGOYEN 55 / (6400) Trenque Lauquen / Buenos Aires / Argentina</span>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/productos.js"></script>
+</body>
+</html>

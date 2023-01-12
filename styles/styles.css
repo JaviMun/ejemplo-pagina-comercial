@@ -1,0 +1,208 @@
+/*Estilos generales de la página*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+/*Estilos específicos de la cabecera*/
+
+header{
+    width: 100%;
+    height: 5%;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    background-color: azure;
+    padding: 1%;
+    border-bottom: 1px solid rgba(0, 17, 126, 0.5);
+}
+nav a img{
+    max-width: 150px;
+}
+.links{
+    display: flex;
+}
+.links a{
+    width: 20%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+/*Estilos del carrito de compras superior*/
+#carrito{
+    border-radius: 100%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border: solid 1px black;
+    background-color: white;
+}
+
+#carrito:hover{
+    background-color: gray;
+}
+
+#carrito img{
+    width: 50%;
+}
+
+.numero-articulos{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: red;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+#dropdown-table{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    width: 50%;
+    background-color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+#dropdown-table button{
+    margin: 5%;
+    width: 25%;
+    padding: 2% 0;
+}
+
+/*Estilos de la primera seccion*/
+
+.first{
+    display: flex;
+    padding: 2%;
+    background-color: azure;
+}
+.first div{
+    width: 50%;
+    font-size: 2em;
+}
+h1{
+    font-size: 2em;
+    padding: 5% 0;
+}
+h2{
+    font-size: 1.5em;
+}
+.first img{
+    width: 100%;
+}
+
+/*Estilo sección quienes somos y servicios*/
+
+#quienes-somos{
+    background-color: #8696EA;
+    padding: 3%;
+    font-size: 1.5em;
+}
+#servicios{
+    background-color: azure;
+    padding: 3%;
+    font-size: 1.5em;
+}
+#quienes-somos h3, #servicios h3{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+#quienes-somos p, #servicios p{
+    text-align: justify;
+    margin: 10px 0;
+}
+#servicios ul{
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/*Estilos del footer*/
+
+footer{
+    width: 100%;
+    display: flex;
+    background-color: #8696EA;
+}
+footer div{
+    width: 100%;
+    padding: 2%;
+}
+.newsletter h4{
+    font-size: 1.5em;
+    margin: 0 2%;
+}
+.newsletter form input{
+    width: 25%;
+    margin: 1%;
+    padding: 1%;
+    border: 0px;
+    border-radius: 50px;
+}
+
+.newsletter form button{
+    display: block;
+    font-size: 1.2em;
+    width: 53%;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 50px;
+}
+.contacto{
+    text-align: right;
+    font-size: 1.5em;
+}
+.iconos-sociales img{
+    width: 40px;
+}
+.otros a{
+    display: block;
+}
+
+/*Estilos de las tablas que muestran los productos del carrito*/
+
+table{
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+th, td {
+    border: 1px solid black;
+}
+
+/* Estilo formulario de compra*/
+
+.comprador{
+    width: 90%;
+    margin: 0 auto;
+    display: flexbox;
+}
+
+.comprador input, .comprador button{
+    width: 45%;
+    font-size: 1.5em;
+    padding: 1%;
+    margin: 1% 0;
+}

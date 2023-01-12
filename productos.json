@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "nombre": "Teclado Gamer",
+        "descripcion": "Ideal para destacar en lo que a juegos se refiere",
+        "fichaTecnica": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales rhoncus magna venenatis vehicula. Donec sit amet felis feugiat, vestibulum mauris sed, porttitor justo. Duis sollicitudin tortor ac placerat lacinia. Pellentesque non purus ex. Etiam et dolor efficitur, ornare magna sed, imperdiet mi. Vestibulum nibh justo, euismod lobortis erat ac, sodales egestas nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam a tempor libero, ac bibendum mauris. Pellentesque ut euismod lacus. Nam a ultricies sem. Sed lobortis magna sit amet massa sollicitudin tincidunt. Integer non est at purus gravida scelerisque at quis ex. Nullam molestie, diam ac vehicula posuere, purus ante porttitor nibh, gravida ultrices sapien arcu sagittis erat. Aenean gravida fringilla pretium. Vivamus tempor metus sit amet nibh imperdiet aliquet nec sit amet nunc. Curabitur ligula tortor, venenatis eu sodales quis, suscipit non risus. Nulla venenatis eget ante quis rhoncus. Nunc vitae imperdiet urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non velit ut lorem tincidunt tincidunt pharetra ac justo. Ut eu posuere tortor. Sed pellentesque aliquam dolor eget volutpat. Donec eu metus non velit iaculis mollis vitae nec mi. ",
+        "imagen": "images/teclado.png",
+        "precio": 200,
+        "cantidad": 1
+    },
+    {
+        "id": 1,
+        "nombre": "Mouse Gamer",
+        "descripcion": "Ideal para destacar en lo que a juegos se refiere",
+        "fichaTecnica": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales rhoncus magna venenatis vehicula. Donec sit amet felis feugiat, vestibulum mauris sed, porttitor justo. Duis sollicitudin tortor ac placerat lacinia. Pellentesque non purus ex. Etiam et dolor efficitur, ornare magna sed, imperdiet mi. Vestibulum nibh justo, euismod lobortis erat ac, sodales egestas nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam a tempor libero, ac bibendum mauris. Pellentesque ut euismod lacus. Nam a ultricies sem. Sed lobortis magna sit amet massa sollicitudin tincidunt. Integer non est at purus gravida scelerisque at quis ex. Nullam molestie, diam ac vehicula posuere, purus ante porttitor nibh, gravida ultrices sapien arcu sagittis erat. Aenean gravida fringilla pretium. Vivamus tempor metus sit amet nibh imperdiet aliquet nec sit amet nunc. Curabitur ligula tortor, venenatis eu sodales quis, suscipit non risus. Nulla venenatis eget ante quis rhoncus. Nunc vitae imperdiet urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non velit ut lorem tincidunt tincidunt pharetra ac justo. Ut eu posuere tortor. Sed pellentesque aliquam dolor eget volutpat. Donec eu metus non velit iaculis mollis vitae nec mi. ",
+        "imagen": "images/mouse.png",
+        "precio": 100,
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Jostick PS4",
+        "descripcion": "Ideal para destacar en lo que a juegos se refiere",
+        "fichaTecnica": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales rhoncus magna venenatis vehicula. Donec sit amet felis feugiat, vestibulum mauris sed, porttitor justo. Duis sollicitudin tortor ac placerat lacinia. Pellentesque non purus ex. Etiam et dolor efficitur, ornare magna sed, imperdiet mi. Vestibulum nibh justo, euismod lobortis erat ac, sodales egestas nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam a tempor libero, ac bibendum mauris. Pellentesque ut euismod lacus. Nam a ultricies sem. Sed lobortis magna sit amet massa sollicitudin tincidunt. Integer non est at purus gravida scelerisque at quis ex. Nullam molestie, diam ac vehicula posuere, purus ante porttitor nibh, gravida ultrices sapien arcu sagittis erat. Aenean gravida fringilla pretium. Vivamus tempor metus sit amet nibh imperdiet aliquet nec sit amet nunc. Curabitur ligula tortor, venenatis eu sodales quis, suscipit non risus. Nulla venenatis eget ante quis rhoncus. Nunc vitae imperdiet urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non velit ut lorem tincidunt tincidunt pharetra ac justo. Ut eu posuere tortor. Sed pellentesque aliquam dolor eget volutpat. Donec eu metus non velit iaculis mollis vitae nec mi. ",
+        "imagen": "images/jostickps4.png",
+        "precio": 300,
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Jostick XBOX",
+        "descripcion": "Ideal para destacar en lo que a juegos se refiere",
+        "fichaTecnica": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales rhoncus magna venenatis vehicula. Donec sit amet felis feugiat, vestibulum mauris sed, porttitor justo. Duis sollicitudin tortor ac placerat lacinia. Pellentesque non purus ex. Etiam et dolor efficitur, ornare magna sed, imperdiet mi. Vestibulum nibh justo, euismod lobortis erat ac, sodales egestas nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam a tempor libero, ac bibendum mauris. Pellentesque ut euismod lacus. Nam a ultricies sem. Sed lobortis magna sit amet massa sollicitudin tincidunt. Integer non est at purus gravida scelerisque at quis ex. Nullam molestie, diam ac vehicula posuere, purus ante porttitor nibh, gravida ultrices sapien arcu sagittis erat. Aenean gravida fringilla pretium. Vivamus tempor metus sit amet nibh imperdiet aliquet nec sit amet nunc. Curabitur ligula tortor, venenatis eu sodales quis, suscipit non risus. Nulla venenatis eget ante quis rhoncus. Nunc vitae imperdiet urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non velit ut lorem tincidunt tincidunt pharetra ac justo. Ut eu posuere tortor. Sed pellentesque aliquam dolor eget volutpat. Donec eu metus non velit iaculis mollis vitae nec mi. ",
+        "imagen": "images/jostickxbox.png",
+        "precio": 300,
+        "cantidad": 1
+    }
+]

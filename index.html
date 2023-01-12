@@ -1,59 +1,122 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/landingPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Zona Digital</title>
 </head>
+
 <body>
-    <header id="header">
-      <nav class="navbar">
-          <a href="index.html"><img class="img-fluid" src="img/logo.png" alt="company logo"></a>
-          <a id="quienesSomos" type="button" class="btn btn-primary" href="#" onclick="$zn.quienesSomos();">Quienes somos</a>
-          <a type="button" class="btn btn-primary" href="#" onclick="$zn.servicios();">Servicios</a>
-          <a type="button" class="btn btn-primary" href="snippet/market.html">Productos</a>
+    <header>
+        <nav>
+            <div class="icon">
+                <a href="index.html"><img src="images/logo.png" alt="aca va el logo"></a>
+            </div>
+            <div class="links">
+                <a href="#quienes-somos">Quienes Somos</a>
+                <a href="#servicios">Servicios</a>
+                <a href="productos.html">Productos</a>
+            </div>
         </nav>
     </header>
-   
-    <div id="main-content"></div>
-    
-    <div id="footer" class="container-fluid">
-      <div class="row">
-        <div class="col-sm-8 col-xs-12">
-          <p id="newsletter">Ingrese su Email para recibir novedades: </p>
-          <form id="form" class="form-inline" action="https://www.freecodecamp.com/email-submit">
-            <div class="form-group">
-              <label for="nombre" class="sr-only">Nombre</label>
-              <input type="text" name="nombre" placeholder="coloque aquí su nombre" class="form-control"></input>
-            </div>
-            <div class="form-group">
-              <label for="email" class="sr-only">Email</label>
-              <input name="email" type="email" placeholder="coloque aquí su email" class="form-control"></input>
-            </div>
-            <input id="submit" type="submit" value="Enviar" class="btn btn-primary">
-          </form>
-        </div>
-        <div class="col-sm-4 col-xs-12">
+    <main>
+        <section class="first">
             <div>
-                <a href="https://www.instagram.com/zonadigitaltl/"><img src="img/Sin título-1.png" alt="logo instagram"></a>
-                <a href="https://www.facebook.com/zonadigitaltrenque/"><img src="img/Sin título-2.png" alt="logo facebook"></a>
+                <h1>ZONA DIGITAL</h1>
+                <h2>Soluciones informáticas para Trenque Lauquen y la zona</h2>
+                <p>Instalación de redes estructurales, wireless, servicio técnico pc y celular, sistemas de seguridad
+                </p>
             </div>
-          <span>GDOR. IRIGOYEN 55 / (6400) Trenque Lauquen / Buenos Aires / Argentina</span><br>
-          <a href="tel:+54 2392 433464">+54 2392 433464</a><br>
-          <a href="mailto:info@zonadigitaltl.com.ar">info@zonadigitaltl.com.ar</a>
+            <div>
+                <img src="images/frente-del-local.jpg" alt="Frente del local de Zona Digital, Trenque Lauquen">
+            </div>
+        </section>
+        <section id="quienes-somos">
+            <h3>Quienes somos</h3>
+            <p>Somos una empresa con mas de 14 años en el mercado ofreciendo Soluciones y Servicios Informaticos
+                Integrales desde
+                Trenque Lauquen y para toda la zona.
+                Comercializamos insumos y accesorios de las marcas mas reconocidas del mercado, con servicio y
+                asesoramiento pre y
+                post-venta por personal especializado en cada area.
+            <p>Asi es entonces que siempre manteniendonos actualizados hemos ido sumando distintos nichos de negocios,
+                gracias a la
+                confianza dada por las empresas con las cuales tenemos alianzas comerciales, simpre trabajando con la
+                mayor pasion,
+                responsabilidad, criterio, con el objetivo claro de seguir a la vanguardia ofreciendo Soluciones
+                Integrales de
+                Informatica
+                y Telecomunicaciones.</p>
+        </section>
+        <section id="servicios">
+            <h3>Servicios</h3>
+            <p>Ofrecemos Servicio Tecnico especializado de PC, Notebook, Netbook, tablet, Impresoras, siendo Service
+                Oficial de las
+                siguientes marcas:</p>
+            <ul>
+                <li>Positivo BGH</li>
+                <li>Kanji</li>
+                <li>X-VIEW</li>
+            </ul>
+            <p>Somos actualmente Distribuidores Autorizados de Buenos Aires Software para su linea de productos LES, que
+                incluye:
+            </p>
+            <ul>
+                <li>DISCOVERY EASY SOFT GESTION</li>
+                <li>EXACTA EASY SOFT CONTABILIDAD</li>
+                <li>SALARY EASY SOFT SUELDOS</li>
+            </ul>
+            <p>Somos Integradores de Soluciones en Seguridad para hogares, comercios, industrias, etc, por ende nos
+                Certificamos
+                como Instaladores de Alarmas Alonso Hnos , e integramos sistemas de CCTV desde proyectos pequeños a
+                proyectos
+                grandes escalables. En este sentido comercializamos lineas de productos de las principales marcas, priorizando en cada
+                sistema la
+                seguridad integral de las personas y sus bienes, y en todos los casos ya sea desde el asesoramiento,
+                venta,
+                instalacion y mantenimiento es realizado por nuestro personal, nunca es terciarizada ninguna de la
+                etapas por las
+                que atraviesa cualquier proyecto.</p>
+            <p>Por otro lado, desde hace mas de 8 años realizamos para GPBA como subcontratados las siguientes tarea en
+                un area de
+                influencia aproximada a los 250-300 km:</p>
+            <ul>
+                <li>Instalacion y Mantenimiento de Enlaces y Equipos de Datos para Claro Argentina.</li>
+                <li>Tecnologias: WIMAX, XL, VSAT, ENLACES PAP CANOPY, entre otros.</li>
+                <li>Instalacion de Rack de Comunicaciones en Nodos.</li>
+                <li>Mantenimiento Preventivo de Nodos Red Fija.</li>
+                <li>Atendiendo dependencias de GPBA como ARBA, MUNICIPIOS, ESCUELAS, COMISARIAS, etc.</li>
+                <li>Instalacion y Mantenimiento de Enlaces Satelitales para YPF S.A.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="newsletter">
+            <h4>Sumate a nuestra comunidad para recibir novedades:</h4>
+            <form action="#">
+                <input type="text" aria-label="Nombre" placeholder="Nombre">
+                <input type="text" aria-label="Email" placeholder="Email">
+                <button type="submit" aria-label="Sumarse al newsletter">¡Quiero recibir las novedades!</button>
+            </form>
         </div>
-      </div>
-    </div>
-    
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+        <div class="contacto">
+            <div class="iconos sociales">
+                <a href="#"><img src="images/Sin título-1.png" alt="Instagram"></a>
+                <a href="#"><img src="images/Sin título-2.png" alt="Facebook"></a>
+            </div>
+            <div class="otros">
+                <a href="tel:+54 2392 433464">+54 2392 433464</a>
+                <a href="mailto:info@zonadigitaltl.com.ar">info@zonadigitaltl.com.ar</a>
+                <span>GDOR. IRIGOYEN 55 / (6400) Trenque Lauquen / Buenos Aires / Argentina</span>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
